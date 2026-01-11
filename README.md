@@ -113,4 +113,7 @@ Open `http://localhost:3000` and start your adventure!
 
 **This is a COMPLETE Zelda adventure** with real gameplay, challenging levels, and satisfying combat! Fight your way through 5 levels of enemies, collect treasures, and prove you're the hero of Hyrule! 🗡️👑✨
 
+## 🎮 Play the Game
+👉 https://dkljajo.github.io/Zelda-Kiro/
+
 **Ready for the challenge? Your epic quest awaits!** ⚔️🏰
