@@ -4,6 +4,8 @@ A **fully playable** 2D Zelda adventure with **5 challenging levels**, **real ob
 
 ## 🎮 **REAL GAMEPLAY WITH LEVELS TO COMPLETE!** ⚔️
 
+![Zelda](./Zelda1.png)
+
 ### 🏆 **Level-Based Progression:**
 - **5 Challenging Levels** with increasing difficulty
 - **Clear Objectives** for each level (defeat enemies + collect rupees)
