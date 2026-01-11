@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
-    "vite": "^7.3.1"
+    "vite": "^4.5.0"
   },
-  "homepage": "https://yourusername.github.io/zelda-2d-retro"
+  "homepage": "https://dkljajo.github.io/Zelda-Kiro"
 }

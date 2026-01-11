@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Legend of Zelda - Retro Adventure</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Press Start 2P', monospace;
+            image-rendering: pixelated;
+            image-rendering: -moz-crisp-edges;
+            image-rendering: crisp-edges;
+        }
+        
+        #gameContainer {
+            position: relative;
+            background: #000;
+            border: 4px solid #333;
+        }
+        
+        #gameCanvas {
+            display: block;
+            image-rendering: pixelated;
+            image-rendering: -moz-crisp-edges;
+            image-rendering: crisp-edges;
+        }
+        
+        #ui {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
+            background: linear-gradient(180deg, #1a4a1a 0%, #0d2d0d 100%);
+            border-bottom: 2px solid #333;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            color: #fff;
+            font-size: 8px;
+            z-index: 100;
+        }
+        
+        .ui-section {
+            display: flex;
+            align-items: center;
+            margin-right: 30px;
+        }
+        
+        .hearts {
+            display: flex;
+            gap: 2px;
+        }
+        
+        .heart {
+            width: 16px;
+            height: 16px;
+            background: #ff0000;
+            position: relative;
+            transform: rotate(45deg);
+        }
+        
+        .heart:before,
+        .heart:after {
+            content: '';
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            background: #ff0000;
+            border-radius: 50%;
+        }
+        
+        .heart:before {
+            top: -8px;
+            left: 0;
+        }
+        
+        .heart:after {
+            left: -8px;
+            top: 0;
+        }
+        
+        .heart.empty {
+            background: #333;
+        }
+        
+        .heart.empty:before,
+        .heart.empty:after {
+            background: #333;
+        }
+        
+        #controls {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #888;
+            font-size: 6px;
+            text-align: center;
+        }
+    </style>
+  <script type="module" crossorigin src="/Zelda-Kiro/assets/index-f5880d04.js"></script>
+</head>
+<body>
+    <div id="gameContainer">
+        <div id="ui">
+            <div class="ui-section">
+                <span style="margin-right: 10px;">LIFE</span>
+                <div class="hearts" id="hearts"></div>
+            </div>
+            <div class="ui-section">
+                <span style="margin-right: 10px;">RUPEES</span>
+                <span id="rupeeCount">000</span>
+            </div>
+            <div class="ui-section">
+                <span style="margin-right: 10px;">KEYS</span>
+                <span id="keyCount">00</span>
+            </div>
+        </div>
+        <canvas id="gameCanvas" width="512" height="448"></canvas>
+        <div id="controls">
+            ARROW KEYS: MOVE | z: SWORD | ENTER: PAUSE
+        </div>
+    </div>
+    
+</body>
+</html>

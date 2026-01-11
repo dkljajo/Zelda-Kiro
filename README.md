@@ -37,7 +37,7 @@ A **fully playable** 2D Zelda adventure with **5 challenging levels**, **real ob
 ## 🚀 **How to Play:**
 
 ### **Play Online (GitHub Pages):**
-Visit: `https://yourusername.github.io/zelda-2d-retro`
+Visit: `https://dkljajo.github.io/Zelda-Kiro`
 
 ### **Run Locally:**
 ```bash

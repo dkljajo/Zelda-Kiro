@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/zelda-2d-retro/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/Zelda-Kiro/' : '/',
   server: {
     port: 3000,
     open: true
