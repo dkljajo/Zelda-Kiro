@@ -4,6 +4,8 @@ A **fully playable** 2D Zelda adventure with **5 challenging levels**, **real ob
 
 ## 🎮 **REAL GAMEPLAY WITH LEVELS TO COMPLETE!** ⚔️
 
+![Zelda](./Zelda1.png)
+
 ### 🏆 **Level-Based Progression:**
 - **5 Challenging Levels** with increasing difficulty
 - **Clear Objectives** for each level (defeat enemies + collect rupees)
@@ -124,5 +126,8 @@ npm run deploy
 - **Health System**: 6 hearts with restoration items
 
 **This is a COMPLETE Zelda adventure** with real gameplay, challenging levels, and satisfying combat! Fight your way through 5 levels of enemies, collect treasures, and prove you're the hero of Hyrule! 🗡️👑✨
+
+## 🎮 Play the Game
+👉 https://dkljajo.github.io/Zelda-Kiro/
 
 **Ready for the challenge? Your epic quest awaits!** ⚔️🏰
