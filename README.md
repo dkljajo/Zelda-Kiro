@@ -34,11 +34,25 @@ A **fully playable** 2D Zelda adventure with **5 challenging levels**, **real ob
 
 ## 🚀 **How to Play:**
 
+### **Play Online (GitHub Pages):**
+Visit: `https://yourusername.github.io/zelda-2d-retro`
+
+### **Run Locally:**
 ```bash
+npm install
 npm run dev
 ```
 
 Open `http://localhost:3000` and start your adventure!
+
+### **Deploy to GitHub Pages:**
+```bash
+# Method 1: Automatic (GitHub Actions)
+# Just push to main/master branch and GitHub will auto-deploy!
+
+# Method 2: Manual deployment
+npm run deploy
+```
 
 ## 🎯 **Gameplay Features:**
 
